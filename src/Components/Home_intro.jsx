@@ -3,7 +3,9 @@ import React from 'react'
 const Home_intro = () => {
     return (
         <div className="px-3 intros">
-
+            <div>
+                <a href="login" class="btn btn-outline-dark mb-2">Log In</a>
+            </div>
             <div className="row g-3 my-2">
                 <div className="col-md-3">
                     <div className="p-1 bg-white shadow-sm d-flex justify-content-around align-item-center rounded">

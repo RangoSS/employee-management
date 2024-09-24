@@ -9,7 +9,9 @@ const Sidebar = () => {
             </div>
             <hr className='text-dark' />
             <div className="list-group list-group-flush">
-
+                <div>
+                    <a href="login" class="btn btn-outline-dark mb-2">Log In</a>
+                </div>
                 <div>
                     <a href="employee_mala" class="btn btn-dark mb-2">Add Employee</a>
                 </div>
