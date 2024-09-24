@@ -1,11 +1,12 @@
-import React from 'react';
+import React from 'react'
 import Sidebar from '../src/Components/Sidebar';
 import Header from '../src/Components/header';
 import Title from '../src/Components/Title';
-import Form from '../src/Components/Form';
-import Employee from '../src/Components/Employee/Employee';
+{/*import Employeedatam from '../src/Components/Employeedatam';*/ }
+import FormData from '../src/Components/FormData';
 
-const Employee_info = () => {
+
+const Employee_dada = () => {
     return (
         <div className='container-fluid home min-vh-100'>
             <div className="row">
@@ -20,13 +21,17 @@ const Employee_info = () => {
 
 
                         <div>
-                            <Employee />
+                            {/* <Employee />  */}
+                            {/* <Employee_data_m />*/}
+                            {/* <Employeedatam />*/}
+                            <FormData />
+                            {/* <FormData />*/}
                         </div>
                     </div>
                 </main>
             </div>
         </div>
-    );
-};
+    )
+}
 
-export default Employee_info;
+export default Employee_dada

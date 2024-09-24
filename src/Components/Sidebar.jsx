@@ -9,9 +9,11 @@ const Sidebar = () => {
             </div>
             <hr className='text-dark' />
             <div className="list-group list-group-flush">
+
                 <div>
-                    <a href="employee" class="btn btn-dark mb-2">Add Employee</a>
+                    <a href="employee_mala" class="btn btn-dark mb-2">Add Employee</a>
                 </div>
+
                 <a className='list-group-item py-2' href="/">
                     <i className='bi bi-house fs-5 me-3'></i>
                     <span className='fs-5' >Home</span>
