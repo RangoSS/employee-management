@@ -34,7 +34,7 @@ export default function Header() {
                 </form>
 
                 <div>
-                    <a href="login" class="btn btn-outline-dark mb-2">Log In</a>
+                    <a href="login" class="btn btn-outline-dark mb-2">Todo List</a>
                 </div>
             </div>
         </nav>
